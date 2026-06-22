@@ -49,6 +49,7 @@ export function SiteHeader() {
     pathname === href || pathname.startsWith(`${href}/`);
 
   return (
+    <>
     <header
       ref={headerRef}
       className={cn(
@@ -111,12 +112,13 @@ export function SiteHeader() {
           {mobileOpen ? <X size={20} /> : <Menu size={20} />}
         </button>
       </div>
+    </header>
 
       {mobileOpen && (
         <div
           id="mobile-nav"
-          style={{ top: headerH }}
-          className="md:hidden border-t border-border bg-bg fixed inset-x-0 bottom-0 z-[100] overflow-y-auto"
+          style={{ top: headerH, height: `calc(100dvh - ${headerH}px)` }}
+          className="md:hidden border-t border-border bg-bg fixed inset-x-0 z-[90] overflow-y-auto overscroll-contain"
         >
           <div className="container-page py-8 flex flex-col gap-1">
             {NAV.map((item) => {
@@ -151,6 +153,6 @@ export function SiteHeader() {
           </div>
         </div>
       )}
-    </header>
+    </>
   );
 }
