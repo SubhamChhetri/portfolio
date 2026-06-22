@@ -844,7 +844,9 @@ export const SITE = {
   name: PROFILE.name,
   role: PROFILE.role,
   tagline: PROFILE.shortBio,
-  url: "https://subhamchhetri.dev",
+  // Change to your custom domain (e.g. https://subhamchhetri.dev) when you have
+  // one, then deploy with CUSTOM_DOMAIN set and no NEXT_PUBLIC_BASE_PATH.
+  url: "https://subhamchhetri.github.io/portfolio",
   email: CONTACT.email,
   location: CONTACT.location,
 };
