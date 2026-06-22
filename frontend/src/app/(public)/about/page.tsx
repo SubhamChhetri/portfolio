@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { PageHeader } from "@/components/site/page-header";
 import { PROFILE, CONTACT } from "@/data/portfolio";
+import { assetPath } from "@/lib/utils";
 import { JsonLd } from "@/components/site/json-ld";
 import { breadcrumbLd, PERSON_ID } from "@/lib/jsonld";
 
@@ -92,7 +93,7 @@ export default function AboutPage() {
         <aside className="lg:sticky lg:top-28 self-start space-y-8">
           <div className="relative aspect-[4/5] overflow-hidden rounded-lg bg-surface-2">
             <Image
-              src="/subham.jpg"
+              src={assetPath("/subham.jpg")}
               alt={`Portrait of ${PROFILE.name}`}
               fill
               sizes="(min-width: 1024px) 18rem, 100vw"

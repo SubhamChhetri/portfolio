@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { WordReveal } from "@/components/magicui/word-reveal";
 import { PROFILE, SOCIALS } from "@/data/portfolio";
+import { assetPath } from "@/lib/utils";
 
 const easeOut = [0.16, 1, 0.3, 1] as const;
 
@@ -96,7 +97,7 @@ export function Hero() {
           >
             <div className="relative aspect-[4/5] overflow-hidden rounded-lg bg-surface-2">
               <Image
-                src="/subham.jpg"
+                src={assetPath("/subham.jpg")}
                 alt={`Portrait of ${PROFILE.name}`}
                 fill
                 priority
