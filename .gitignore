@@ -1,0 +1,8 @@
+.DS_Store
+googlelogin.md
+
+# deploy worktree (created/removed by deploy.sh)
+.deploy-prod/
+
+# tooling state
+frontend/.impeccable/

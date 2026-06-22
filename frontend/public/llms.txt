@@ -1,0 +1,44 @@
+# Subham Chhetri — Software Engineer
+
+> Subham Chhetri is a Software Engineer at DHI InnoTech (DRIVE) in Thimphu, Bhutan,
+> working at the intersection of AI, robotics, blockchain, and IoT. He holds a B.E. in
+> Computer Science & Engineering (CGPA 9.65/10) and has shipped national-impact systems
+> including Bhutan's sovereign ANPR system, an IoT water-management platform, offline
+> blockchain R&D (ByteCrane, validated with Mysten Labs), reconfigurable robotics with
+> MIT's Center for Bits and Atoms, and the Guru App (10,000+ downloads).
+
+## Key facts
+- Name: Subham Chhetri
+- Role: Software Engineer at DHI InnoTech (DRIVE); freelance full-stack & mobile developer
+- Location: Thimphu, Bhutan (works remotely with international clients worldwide)
+- Education: B.E. Computer Science & Engineering, Chitkara University (2023), CGPA 9.65/10
+- Focus areas: AI & computer vision, robotics, blockchain & Web3, IoT & embedded, system architecture, full-stack
+- Contact: 2107.subham@gmail.com · GitHub https://github.com/SubhamChhetri · LinkedIn https://www.linkedin.com/in/subhamchhetri/
+- Availability: available for freelance and contract projects (remote or on-site); pricing is project-based, quoted per scope
+- Freelance track record: GEIPL (Guru App, 10,000+ downloads) and Energy Integrated (Netherlands, remote)
+
+## Freelance services (available for hire)
+- Full-stack web development — React, Next.js, Node.js, FastAPI (MVP to production)
+- Mobile app development — React Native (iOS & Android), NFC, offline-first, on-device ML
+- AI & LLM integration — GPT-4o/LLM features, computer vision, on-device ML
+- IoT & blockchain systems — MQTT, ESP32, LoRa; Sui, Ethereum, NFTs
+- To hire: email 2107.subham@gmail.com with project goals, timeline, and budget
+
+## Pages
+- [Home](https://subhamchhetri.dev/): overview, selected work, expertise, recent roles
+- [About](https://subhamchhetri.dev/about): full bio, interests, languages
+- [Projects](https://subhamchhetri.dev/projects): all projects with detail pages
+- [Experience](https://subhamchhetri.dev/experience): work history, skills, education, trainings, awards
+- [FAQ](https://subhamchhetri.dev/faq): factual answers about background, projects, and contact
+- [Contact](https://subhamchhetri.dev/contact): email, phone, and social links
+
+## Notable projects
+- [DRIVE ANPR System](https://subhamchhetri.dev/projects/drive-anpr): Bhutan's sovereign AI number-plate recognition for the Royal Bhutan Police (YOLOv8 + Florence-2 OCR)
+- [Guru App (Benzra)](https://subhamchhetri.dev/projects/guru-app): cross-platform digital prayer-bead app, 10,000+ downloads (React Native, NFC, on-device voice ML)
+- [ByteCrane](https://subhamchhetri.dev/projects/bytecrane): offline IoT-to-blockchain, validated with the Sui team (Sui/Move, ESP32, LoRa)
+- [Voxel Project (MILAbot)](https://subhamchhetri.dev/projects/voxel-milabot): reconfigurable robotic construction with MIT CBA
+- [RiKhaNET](https://subhamchhetri.dev/projects/rikhanet): AI/IoT human–tiger conflict early-warning
+- [Bhutan Cultural Heritage NFT Initiative](https://subhamchhetri.dev/projects/bhutan-heritage-nft): government-linked NFT initiative
+- [BhuSIS](https://subhamchhetri.dev/projects/bhusis): national Bhutan Soil Information System (FastAPI, PostgreSQL, React Native, NDI)
+
+Note: update the subhamchhetri.dev domain to the production domain once deployed.
