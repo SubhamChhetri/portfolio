@@ -45,14 +45,21 @@ Also update `SITE.url` in `frontend/src/data/portfolio.ts` to the final URL
 
 ## Everyday deploy
 
-After editing content (in Obsidian or in code):
+After editing content (in Obsidian or in code), from the `frontend/` folder:
 
 ```bash
-./deploy.sh "update projects"
+npm run deploy                 # auto commit message
+npm run deploy -- "message"    # custom commit message
 ```
 
-This runs the Obsidian sync, builds, pushes source → `dev`, and the static site →
-`prod`. GitHub Pages redeploys automatically within a minute.
+This one command runs the Obsidian sync, builds (with the `/portfolio` base path),
+pushes source → `dev` (`main`), and the static site → `prod`. GitHub Pages
+redeploys automatically within a minute.
+
+> `npm run deploy` is defined in `frontend/package.json` as
+> `NEXT_PUBLIC_BASE_PATH=/portfolio bash ../deploy.sh`. On a **custom domain**,
+> change that script to `CUSTOM_DOMAIN=yourdomain.com bash ../deploy.sh` (drop the
+> base path). You can still call `./deploy.sh` directly from the repo root.
 
 ## Config (env overrides for deploy.sh)
 
