@@ -5,6 +5,7 @@ import { MotionProvider } from "@/components/site/motion-provider";
 import { SITE, PROFILE } from "@/data/portfolio";
 import { JsonLd } from "@/components/site/json-ld";
 import { personLd, websiteLd } from "@/lib/jsonld";
+import { assetPath } from "@/lib/utils";
 import { Toaster } from "sonner";
 
 const inter = Inter({
@@ -71,6 +72,13 @@ export const metadata: Metadata = {
     "DHI InnoTech",
   ],
   authors: [{ name: PROFILE.name }],
+  // Declared explicitly (not via file convention) so the hrefs carry the base
+  // path — Next doesn't prefix metadata icon URLs in a static export. The files
+  // come from app/icon.svg and public/apple-icon.png.
+  icons: {
+    icon: [{ url: assetPath("/icon.svg"), type: "image/svg+xml" }],
+    apple: assetPath("/apple-icon.png"),
+  },
   robots: {
     index: true,
     follow: true,
